@@ -1,0 +1,13 @@
+{
+  "name": "marshbout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hafdon/marshbout.git",
+  "author": "hafdon <zweisser@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "get": "cp -R  ../../Documents/general/docs/*  ./docs",
+   "deploy": "git add . && git commit -m \"deploy\" && git push"
+
+}
+}
